@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="694.0" prefWidth="574.0" style="-fx-background-color: #e3c22d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CorrectionController">
+    <children>
+        <Button fx:id="processButton" layoutX="162.0" layoutY="292.0" mnemonicParsing="false" onAction="#processButtonOA" prefHeight="74.0" prefWidth="249.0" style="-fx-background-color: #6b542b;" text="process" textFill="WHITE">
+            <font>
+                <Font name="Bank Gothic Medium BT" size="41.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </Button>
+        <AnchorPane fx:id="hidingBox" layoutX="105.0" layoutY="289.0" prefHeight="314.0" prefWidth="362.0" style="-fx-background-color: #e3c22d;" visible="false" />
+        <Text layoutX="168.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="correction" textAlignment="CENTER">
+            <font>
+                <Font name="Bank Gothic Medium BT" size="38.0" />
+            </font>
+        </Text>
+        <TextField fx:id="inputBox" alignment="CENTER" layoutX="161.0" layoutY="229.0" prefHeight="44.0" prefWidth="250.0" promptText="enter your word here">
+            <font>
+                <Font name="Bank Gothic Medium BT" size="18.5" />
+            </font>
+        </TextField>
+        <Button fx:id="backButton" layoutX="14.0" layoutY="624.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="55.0" prefWidth="53.0" style="-fx-background-color: #6b542b;" text="back" textFill="WHITE">
+            <font>
+                <Font name="Bank Gothic Medium BT" size="13.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </Button>
+      <Text fx:id="currectMsg" layoutX="101.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="entered word is correct!" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="incorrectMsg" layoutX="54.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="entered word is incorrect! choose one of the suggestions below" textAlignment="CENTER" visible="false" wrappingWidth="483.6875">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="txt5" layoutX="126.0" layoutY="543.0" mnemonicParsing="false" onAction="#txt5OA" prefHeight="44.0" prefWidth="322.0" style="-fx-background-color: #cbced4;" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="txt4" layoutX="125.0" layoutY="487.0" mnemonicParsing="false" onAction="#txt4OA" prefHeight="44.0" prefWidth="322.0" style="-fx-background-color: #cbced4;" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="txt3" layoutX="125.0" layoutY="430.0" mnemonicParsing="false" onAction="#txt3OA" prefHeight="44.0" prefWidth="322.0" style="-fx-background-color: #cbced4;" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="txt2" layoutX="125.0" layoutY="373.0" mnemonicParsing="false" onAction="#txt2OA" prefHeight="44.0" prefWidth="322.0" style="-fx-background-color: #cbced4;" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="txt1" layoutX="125.0" layoutY="318.0" mnemonicParsing="false" onAction="#txt1OA" prefHeight="44.0" prefWidth="322.0" style="-fx-background-color: #cbced4;" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="17.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
