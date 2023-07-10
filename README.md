@@ -1,5 +1,5 @@
-# Trie Keyboard with gui
-a keyboard that can operate the following tasks using a Trie tree data structure, with javafx:
+# Trie Keyboard with GUI
+A keyboard that can operate the following tasks using a Trie tree data structure, with javafx:
 (the trie is produced based on a list of words, read from txt file.)
 1. autocomplete: generates word suggestions for a given input; results are ordered based on their frequency.
 2. spell check: checking whether the word exists in the trie.
